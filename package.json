@@ -1,5 +1,5 @@
 {
-  "name": "question6",
+  "name": "question10",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.11.19"
+    "@types/node": "^20.11.20"
   }
 }
