@@ -20,3 +20,18 @@ Guest_List.push('maham');
 for (let i = 0; i < Guest_List.length; i++) {
     console.log('Dear Ms. ' + Guest_List[i] + ',\n\nIt is our pleasure to invite you in our party.\n\nThanks!\n\n');
 }
+console.log('\nSorry we cannot arranged a big table, only two people are invited.');
+while(Guest_List.length > 2){
+let remove_Guest = Guest_List.pop();
+console.log(`Sorry Ms. ${remove_Guest}, you are not invied for Dinner.  `)
+}
+for (let i = 0; i < Guest_List.length; i++) {
+    console.log('Dear Ms. ' + Guest_List[i] + ',\n\nYor are still invited for Dinner.\n\nThanks!\n\n');
+}
+
+Guest_List.splice(0 , 2);
+
+console.log(Guest_List);
+
+
+
